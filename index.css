@@ -1,21 +1,25 @@
-div{
-  border-color: red;
-  border-width: 1px;
-  border-style: solid;
+body {
+  font-family: 'Cormorant Garamond';
 }
 
 .header {
   height: 95px;
   display: flex;
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
 }
 
 .header-link {
   margin: auto;
+  font-size: 28px;
+  color: #10191E;
+  text-decoration: none;
 }
 
 .flex-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -83,6 +87,7 @@ div{
 
 .flex-row_reversed {
   flex-direction: row-reverse;
+  margin: 60px auto;
 }
 
 .menu {
@@ -91,6 +96,15 @@ div{
   min-height: 75px;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: 40px auto;
+}
+
+.main {
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto; 
 }
 
 .project_vanilla{
@@ -100,12 +114,42 @@ div{
 
 .project_how-to-study {
   background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+  order: 3;
 }
 
 .project_across-russia {
   background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+  order: 2;
+  flex-basis: 636px;
 }
 
 .project_mesto {
   background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+  order: 1;
+}
+
+.footer {
+  display: flex;
+  height: 95px;
+  justify-content: center;
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
+}
+
+.logo {
+  width: 145px;
+  height: 25px;
+  background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+}
+
+.menu-link {
+  font-size: 18px;
+  margin-right: 20px;
+  color: #10191E;
+  text-decoration: none;
 }
