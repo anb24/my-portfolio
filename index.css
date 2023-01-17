@@ -16,6 +16,7 @@ div{
 .flex-row {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -87,4 +88,24 @@ div{
 .menu {
   display:flex;
   justify-content: center;
+  min-height: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project_vanilla{
+  width: 306px;
+  height: 290px;
+}
+
+.project_how-to-study {
+  background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+}
+
+.project_across-russia {
+  background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+}
+
+.project_mesto {
+  background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
 }
