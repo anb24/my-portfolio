@@ -1,74 +1,90 @@
 div{
-    border-color: red;
-    border-width: 1px;
-    border-style: solid;
-  }
-  
-  .header {
-    height: 95px;
-    display: flex;
-  }
-  
-  .header-link {
-    margin: auto;
-  }
-  
-  .flex-row {
-    display: flex;
-  }
-  
-  .project {
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .project_beginner {
-    width: 636px;
-    height: 430px;
-  }
-  
-  .project_music-album {
-    background-image: url(https://code.s3.yandex.net/web-code/album.png);
-  }
-  
-  .project_design-principles {
-    background-image: url(https://code.s3.yandex.net/web-code/design.png);
-  }
-  
-  .flex-column {
-    width: 636px;
-    height: 557px;
-  }
-  
-  .project_procrastinate {
-    width: 636px;
-    height: 557px;
-  }
-  
-  .project-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-  }
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}
 
-  .project_p5 {
-    width: 636px;
-    height: 240px;
-  }
-  
-  .flex-row_frameworks-inner {
-    width: 636px;
-    height: 290px;
-  }
-  
-  .project_slider {
-    width: 306px;
-    height: 290px;
-    background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
-  }
-  
-  .project_reactive {
-    width: 306px;
-    height: 290px;
-    background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
-  }
+.header {
+  height: 95px;
+  display: flex;
+}
+
+.header-link {
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  background-position: center;
+  background-size: cover;
+}
+
+.project_beginner {
+  width: 636px;
+  height: 430px;
+}
+
+.project_music-album {
+  background-image: url(https://code.s3.yandex.net/web-code/album.png);
+}
+
+.project_design-principles {
+  background-image: url(https://code.s3.yandex.net/web-code/design.png);
+}
+
+.flex-column {
+  width: 636px;
+  height: 557px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project_procrastinate {
+  width: 636px;
+  height: 557px;
+}
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.project_p5 {
+  width: 636px;
+  height: 240px;
+}
+
+.flex-row_frameworks-inner {
+  width: 636px;
+  height: 290px;
+}
+
+.project_slider {
+  width: 306px;
+  height: 290px;
+  background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+}
+
+.project_reactive {
+  width: 306px;
+  height: 290px;
+  background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+}
+
+.flex-column_reversed {
+  flex-direction: column-reverse;
+}
+
+.flex-row_reversed {
+  flex-direction: row-reverse;
+}
+
+.menu {
+  display:flex;
+  justify-content: center;
+}
